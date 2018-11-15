@@ -1,0 +1,105 @@
+body {
+  background-color: #ebeff4;
+  min-height: 100vh;
+}
+
+.bg-blue {
+  background-color: #3c8dbb;
+}
+
+.bg-dark-accent {
+  background-color: #1d272b;
+}
+
+.bg-black {
+  background-color: #192125;
+}
+
+.text-small {
+  font-size: 12px;
+}
+
+.text-med {
+  font-size: 14px;
+}
+
+.sidenav {
+  width: 100%;
+}
+
+.online-indicator {
+  height: 10px;
+  width: 10px;
+}
+
+.sidenav li.active {
+  border-left: 3px solid #3c8dbb;
+}
+
+.card-header {
+  border-top: 4px solid #3c8dbb;
+}
+
+.sidenav {
+  background-color: #212c31;
+}
+
+.profile-img {
+  height: 50px;
+}
+
+/* Removing spin boxes from number inputs */
+
+input[type='number'] {
+  -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.card .card-body {
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  background-blend-mode: soft-light;
+}
+
+.card.bg-info .card-body {
+  background-image: url(https://static.wixstatic.com/media/438bf6_ba00d8867ac04b18a05c7ef5c564fb57~mv2_d_1600_1600_s_2.png);
+  background-color: #07bfee;
+}
+
+.card.bg-success .card-body {
+  background-image: url(http://www.gaby-moreno.com/administrator/public_html/css/ionicons/png/512/stats-bars.png);
+  background-color: #00a55b;
+}
+
+.card.bg-warning .card-body {
+  background-image: url(https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-person-add-512.png);
+  background-color: #f29b1a;
+}
+
+.card.bg-danger .card-body {
+  background-image: url(https://png.pngtree.com/svg/20170712/app_pie_1192627.png);
+  background-color: #dc4a39;
+}
+
+@media (min-width: 768px) {
+
+  /* Fixed sidenav */
+
+  .sidenav {
+    min-height: calc(100vh - 56px);
+  }
+
+  .sidenav, .sidenav-header {
+    width: 230px
+  }
+
+  .sidenav-header {
+    background-color: #367ea8;
+  }
+  
+}
